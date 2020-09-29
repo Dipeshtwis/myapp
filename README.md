@@ -22,3 +22,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+### How to run
+
+Start server with:
+
+```
+    rails s
+```
+
+Open `http://localhost:3000/` in your browser.
+
+
+## To run Test
+
+~~~ruby
+$ rails db:migrate RAILS_ENV=test
+$ rspec --format documentation
+
+~~~
