@@ -23,6 +23,41 @@ Things you may want to cover:
 
 * ...
 
+## Getting Started <a name = "gs"></a>
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+~~~bash
+$ git clone git@github.com:Dipeshtwis/twitter-redesign.git
+$ cd twitter-redesign
+$ bundle install
+$ yarn install --check-files
+~~~
+
+Setup database with:
+
+> make sure you have postgres sql installed and running on your local machine
+
+> Go to config > database.yml
+
+Replace ```xxx``` with your ```own``` postgresql username and password
+```
+username: xxx
+password: xxx
+```
+
+> create and migrate the database by these commands
+
+```
+   rails db:create
+   rails db:migrate
+```
+
+
 
 ### How to run
 
